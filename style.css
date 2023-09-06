@@ -1,0 +1,284 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+}
+
+
+
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 70vw;
+    margin: 0 auto;
+    gap: 0.2rem;
+}
+@media(max-width:400px) {
+    h2{
+        display: none;
+    }
+
+    .wraper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+        height: 0;
+        margin-top: 11rem;
+    }
+    .facebookImage{
+        width: 112px !important;
+        height: 50px !important;
+        margin-bottom: 0 !important;
+        display: block;
+    }
+
+    html body{
+        background-color: #FFFFFF;
+    }
+
+    .fullcard{
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0rem 0rem 0rem 0rem !important;
+    }
+
+    input{
+        height: 6.9vh !important;
+        border-color: #d4d4d4 !important;
+        border-radius: 3px !important;
+        background-color: #F5F6F7;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    input::placeholder{
+        color: #707070 !important;
+        font-size: 14px;
+    }
+
+    input:focus{
+        border-color: #ff9011 !important;
+    }
+
+    .signbutton{
+        text-shadow: 0px -1px 0px #004caf !important;
+        font-size: 17px !important;
+        height: 6.6vh !important;
+        width: 99% !important;
+        margin: 0 !important;
+        border-radius: 3px !important;
+        box-shadow: 0 2px 2px rgba(0, 110, 255, 0.294), 0 0px 0px rgba(0, 110, 255, 0.295) !important;
+        margin-bottom: 15px !important;
+    }
+
+    .link-forgotpassword{
+        font-family: 'Roboto', sans-serif !important;
+        text-align: center;
+    }
+
+    .btn-createacount{
+        box-shadow: 0 2px 2px rgba(27, 85, 16, 0.486), 0 0px 0px rgba(27, 85, 16, 0.486) !important;
+        background-color: #00a400 !important;
+        border-radius: 4px !important;
+        height: 6.4vh !important;
+        width: 36vw !important;
+        font-size: 14px !important;
+        text-shadow: 0 -1px 0 rgb(0 0 0 / 35%);
+
+    }
+
+    hr{
+        width: 160px;
+    }
+
+    .hrAlign{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+        color: #47494d;
+        font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+        font-size: 15px
+
+    }
+
+    span{
+        margin: 0px 15px 0px 15px !important;
+        display: block !important;
+    }
+
+}
+
+.facebookImage{
+    width: 301px;
+    height: 106px;
+    margin: -28px;
+    margin-bottom: 30px;
+}
+
+.pageElements{
+    display: flex;
+    flex-direction: column;
+}
+
+.fullcard{
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 9px;
+    /* width: 25vw; */
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15), 0 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+
+}
+
+input {
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    width: 22rem;
+}
+
+
+input:focus{
+    outline: none;
+    border-color: #1877F2;
+}
+
+input::placeholder {
+    color: #90949C;
+}
+
+.signbutton{
+    border-color: #1877F2;
+    background-color: #1877f2;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 7px;
+    height: 3.6vw;
+    margin: 0rem 0rem 1rem 0rem;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#SignButtonHover:hover{
+    background-color: #1771e7;
+    animation-name: blueAnimation;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes blueAnimation{
+    100%{
+        background-color: #1361c7;
+    }
+}
+
+.element-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formForgotpassword{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+
+.link-forgotpassword{
+    font-size: 14px;
+    color: #1877F2;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 39%;
+}
+
+hr{
+    margin: 1.8rem 0rem 1.8rem 0rem;
+    color: #cacaca;
+    opacity: 0.4;
+    width: 160px;
+}
+
+.hrAlign{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    color: #47494d;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+    font-size: 15px
+
+}
+
+span{
+    display: none;
+}
+
+
+h2{
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    position: relative;
+    bottom: 4rem;
+    font-size: 28px;
+}
+
+.formText h2{
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.formCreateacount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.btn-createacount{
+    border-color: #42B72A;
+    background-color: #42B72A;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin: 0 auto;
+    border-radius: 7px;
+    height: 3rem;
+    width: 46%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-createacount:hover{
+    background-color: #39b321;
+    animation-name: rainbow;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainbow{
+    100%{
+        background-color: #359123;
+    }
+}
